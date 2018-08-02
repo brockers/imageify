@@ -10,3 +10,5 @@ for I in ./*.pdf; do
 	echo "Combining $FILENAME images to pdf"
 	convert ${FILENAME}-*.png ${FILENAME}.pdf
 done
+
+rm -f *.png
